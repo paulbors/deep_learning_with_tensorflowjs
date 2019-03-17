@@ -1,0 +1,8 @@
+# Acknowledgements
+
+All praises, thanks and acknowledgements for this book go God, my Lord and Savior Jesus Christ, The Holy Spirt the Universe and my guardian angels for the many blessings, signs, opportunities and strength along the way. Much thanks to my loving wife, Felicia, for helping when I needed her the most and for providing the motivation to see this process through to the end. I would also like to give much thanks and gratitude to my editors and friends for editing and reviewing this book. I am forever grateful to you all.
+
+Love, Peace and Happiness to you all.
+
+Sincerely,
+Jamal

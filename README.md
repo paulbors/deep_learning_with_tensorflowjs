@@ -1,4 +1,4 @@
-# Browser-based Deep Learning with TensorFlow.js
+# TensorFlow.js Quick Start Guide
 
 > Train and deploy deep learning models in the browser using artificial neural networks and TensorFlow.js
 

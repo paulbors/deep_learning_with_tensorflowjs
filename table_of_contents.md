@@ -20,6 +20,4 @@
 
 ## Chapter 8: Deploying Deep Learning Models to the Browser
 
-## Chapter 9: Next Steps
-
 ## Glossary

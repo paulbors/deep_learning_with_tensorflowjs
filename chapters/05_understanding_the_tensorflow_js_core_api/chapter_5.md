@@ -155,12 +155,21 @@ If we want to create a tensor that is of three dimensions we can make use of the
 **Figure 5.8**
 
 ```JavaScript
+const matrix3d = tf.tensor3d([[[1], [2]], [[3], [4]]]).print();
+matrix2d.print();
 
+/*
+Tensor
+    [[[1],
+      [2]],
+     [[3],
+      [4]]]
+*/
 ```
 
 #### Creating Tensors of Different Dimension
 
-TensorFlow.js provides helper methods that will alow us to create matrices of up to six dimensions. They are `tf.tensor4d`, `tf.tensor5d` and `tf.tensor6d`. They work similar in fashion to the three methods we previously looked at. Feel free to experiment with them.
+TensorFlow.js provides helper methods that will allow us to create matrices of up to six dimensions. They are `tf.tensor4d`, `tf.tensor5d` and `tf.tensor6d`. They work similar in fashion to the three methods we previously looked at. Feel free to experiment with them.
 
 ### Performing Operations on Tensors
 
@@ -168,7 +177,7 @@ When building our deep learning models we often have to perform operations on ou
 
 #### Math Operations
 
-We can also
+In addition to 
 
 #### tf.abs
 
@@ -186,12 +195,13 @@ Tensor
 
 #### tf.ceil
 
-TBD
+To compute the ceiling of a given tensor we can use the `tf.ceil` method. 
 
 **Figure 5.x**
 
 ```JavaScript
-
+const ceiled1dTensor = tf.tensor1d([.6, 1.1, -3.3]);
+ceiled1dTensor .ceil().print();  // or tf.ceil(x)
 ```
 
 #### tf.reshape
@@ -237,13 +247,11 @@ Tensor
 */
 ```
 
-**Figure 5.x**
-
-```JavaScript
-
-```
-
 ### Building a Simple ANN Using the Core API
+
+In this section we will use the core API to build a very simple Artificial Neural Network (ANN).
+
+TODO: REWRITE THIS ENTIRE SECTION!
 
 **Figure 5.x**
 

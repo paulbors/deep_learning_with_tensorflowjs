@@ -28,7 +28,7 @@ In this book we will learn just enough TensorFlow.js to build and deploy deep le
 
 ## Author Bio
 
-Jamal O’Garro is a full-stack Node.js and Python developer with experience working at several bulge-bracket investment banks including Goldman Sachs and Morgan Stanley, BlackRock Financial Management, a multi-billion dollar hedge fund and a major securities market maker. His primary focus is designing and building electronic trading software systems. He has built and deployed deep learning models that have been used in the systematic and algorithmic trading space.
+Jamal Sinclair O’Garro is a full-stack Node.js and Python developer with experience working at several bulge-bracket investment banks and asset management firms including Goldman Sachs and Morgan Stanley, BlackRock Financial Management, a multi-billion dollar hedge fund and a major securities market maker. His primary focus is designing and building electronic trading software systems. Jamal has both written and deployed deep learning models that have been used in the systematic, semi-systematic and algorithmic trading programs.
 
 Jamal is also heavily involved in the NYC tech scene and runs two of New York City's largest tech meetups. He has been invited to and has spoken at the President Barrack Obama's White House, the United Nations and New York University. Jamal has been featured or quoted in media outlets such as Fortune, Forbes, TechCrunch and CNN/Money. In his spare time he likes to shoot photography, learn new functional programming languages, give tech talks and teach others how to code. He has taught software engineering and web development courses at the New Jersey Institute of Technology and Columbia University in the City of New York.
 

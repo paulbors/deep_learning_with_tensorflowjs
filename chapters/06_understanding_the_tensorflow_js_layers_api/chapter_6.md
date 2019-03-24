@@ -145,6 +145,14 @@ output: ______________________________
 
 Though there are more methods available to us on the `tf.Sequential` and `tf.Model` classes these are the ones that you will probably mostly interact with. To learn more about other methods provided by the Layers API it is recommended to read through the official documentation or source code.
 
+## A Real-world Example: Recurrent Neural Network
+
+TBD
+
+## A Real-world Example: Autoencoder
+
+TBD
+
 ## A Real-world Example: Convolutional Neural Networks
 
 Convolutional neural networks (CNNs) are special type of artificial neural network that is used for image classification. The work by applying a series of filters to the raw pixels of an image to extract and learn specific features that is can use to perform the image classification task. This example comes directly from the TensorFlow.js documentation and has been changed to work in a Node.js environment so that we can train and save our model to the file system.

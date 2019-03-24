@@ -1,0 +1,24 @@
+{
+  "name": "regression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-regression": "npx babel regression.js --out-file compiled/regression.js && node compiled/regression.js",
+    "run-sandbox": "npx babel sandbox.js --out-file compiled/sandbox.js && node compiled/sandbox.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yarn": "^1.13.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@tensorflow/tfjs-node": "^1.0.2",
+    "babel-polyfill": "^6.26.0"
+  }
+}

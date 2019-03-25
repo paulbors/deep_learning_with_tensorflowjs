@@ -33,6 +33,14 @@ The TensorFlow.js library provides two APIs that can be used to build, train and
 
 In this chapter we will use TensorFlow.js’ layers API to build an artificial neural network that can recognize images -- particularly handwritten digits.
 
+## The TensorFlow Computational Graph
+
+TBD
+
+## TensorFlow Sessions
+
+TBD
+
 ## Deep Learning in the Browser
 
 To build our first artificial neural network using TensorFlow.js we will continue with our hello world React example from chapter two. We will build our image recognition model in the body of our runModel function. Start by clearing out the body of this function. Your App.js file should look as follows:

@@ -18,14 +18,13 @@ TensorFlow.js can be installed in a couple of different ways. In this book we wi
 ```html
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5" onload="alert('TensorFlow.js loaded!')" onerror="alert('Tensorflow.js not loaded')"></script>
   </head>
   <body>
     ...
   </body>
 </html>
 ```
-
 When the web page containing the sample markup above loads, the script tag will make a request to the JSDelvr content delivery network (CDN) and load version 0.12.5 of the TensorFlow.js library into the browser for use. Any other script tag loaded after the one that injects the TensorFlow.js library will have access to TensorFlow.js through a global object. This global object is accessed through the "tf" namespace and contains the methods that provide the functionality required to use TensorFlow.js to build and train models in the browser. In the next example, found in Figure 2.2, we can see the the “tf” object being used to create a model, add a layer to this model, compile the model and then use it to predict values.
 
 **Figure 2.2**
@@ -45,7 +44,7 @@ When the web page containing the sample markup above loads, the script tag will 
       // Prepare our data.
       const xs = tf.tensor2d([2, 4, 6, 8], [4, 1]);
       const ys = tf.tensor2d([2, 6, 10, 14], [4, 1]);
-      // Train model with the data create in the previous step
+      // Train model with the data created in the previous step
       model.fit(xs, ys, { epochs: 10 }).then(() => {
         // Perform inference on new data and print the result.
         model.predict(tf.tensor2d([5], [1, 1])).print();
@@ -55,8 +54,7 @@ When the web page containing the sample markup above loads, the script tag will 
   <body></body>
 </html>
 ```
-
-Don’t worry too much about the code snippets in the example above. We will cover this in more detail later in this chapter.
+Don’t worry too much about the code in the example above. We will cover this in more detail later in this chapter.
 
 ### Introducing the Node Package Manager
 
@@ -149,7 +147,7 @@ npm i
 npm start
 ```
 
-This will install all of the required dependencies required to run out application as well as start Webpack, compile our code through Babel and spin up a live hot-reloading development server that will run on localhost:3000 in our browsers. You’ll see the application running if you visit http://localhost:3000/ in your browser.
+This will install all of the required dependencies required to run out application as well as start Webpack, compile our code through Babel and spin up a live hot-reloading development server that will run on localhost:3000 in our browsers. You’ll see the application running if you visit http://localhost:3000/ in your browser. **So we need a web server to run the app? It is not clear if TFJS is being run server side or client side.**
 
 If you see the following screen the installation was successful and you're now ready to install and start using TensorFlow.js in the browser!
 
@@ -192,7 +190,7 @@ class App extends Component {
     // Prepare our data.
     const xs = tf.tensor2d([2, 4, 6, 8], [4, 1]);
     const ys = tf.tensor2d([2, 6, 10, 14], [4, 1]);
-    // Train model with the data create in the previous step
+    // Train model with the data created in the previous step
     model.fit(xs, ys, { epochs: 10 }).then(() => {
       // Perform inference on new data and print the result.
       model.predict(tf.tensor2d([5], [1, 1])).print();
@@ -214,9 +212,9 @@ export default App;
 
 A little bit about how this code works:
 
-1. When our script loads we create a sequential model and add a layer to it
-2. We specify a particular shape and compile our model for our training step
-3. We next prepare our data that we eventually train and predict a result and print it to the console as specified in the print method specified in the callback in the model.fit call
+1. When our script loads we create a *sequential* model and *add* a layer to it
+2. We specify a particular shape and *compile* our model defining the *loss* type and the *optimizer* type
+3. We next prepare our data that we eventually train on or *fit*, then *predict* a result based on the learned model and *print* it to the console as specified in the print method specified in the callback in the model.fit call
 
 This is an over-simplified explanation of how this code works but it will do until we go deeper into the machine learning theory and TensorFlow.js APIs.
 After replacing the contents of App.js with the snippet above navigate to http://localhost:3000 in your browser and launch Chrome Development Tools JavaScript console by pressing Cmd + Shift + C.

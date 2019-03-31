@@ -83,6 +83,23 @@ If a model is able to learn from the data and create its own labels we refer to 
 Imagine that you uploaded 2,000 photos to this social media site. Though the model doesn’t know who you are or who the other people in your photos are, it can start to recognize faces and apply its own labels to the data before you even begin to label them by tagging them. Behind the scenes the model will create categories for people that look like you and people that look like uncle Ben, people that look like aunt May and so and so on.
 This process of automatically making inferences from unlabelled data is called unsupervised learning (i.e. it doesn’t have the answers upfront and learns the features and classifies them without assistance). Of course it will not know the name of each person, but it can assign an index or some sort of label. What it learns is that uncle Ben is different than aunt May and you are similar in all photos. So then when you've tagged even a single photo of yourself, it can extend that label to the other photos that it knows are similar. This is a sort of semi-supervised learning. 
 
+## Reinforcement Learning 
+
+Reinforcement learning, also referred to as (RL), is an area of machine learning that focuses on how a model can learn from its environment. The idea is that a model will learn by receiving some reward for an action that leads to a favorable result in the long-run and will receive a punishment for actions that do not lead to the expected reward. This is similar to how humans learn from their environments in the real-world. One difference between reinforcement learning and other modes of machine learning such as supervised learning is that in supervised learning we provide the answers when training our model, in reinforcement learning theres is no set of answers to learn from. Unlike unsupervised learning, where we are looking to find relationships between data with reinforcement learning we aim to find the best set of actions that will lead to our rewards. This results in the model having to learn from experiences observed by taking actions in its environment. 
+
+For example, as children we learn that fire provides positive results by providing light when it is dark and warmth when it is cold. However, we learn that fire can also be dangerous if we get to close it by touching a flame being burned. This is one way that we, as humans, can learn from our environment. Unlike most human beings, computers will learn by performing actions in a given environment several times creating a feedback loop. For example, an algorithm, also called an agent, may learn how to complete the first level of Super Mario Brothers by standing still and losing when time runs out, being killed by a Goomba or Koopa Trooper until it realizes that it should attempt to advance Mario to the other end of the level. The model will then attempt to advance Mario to right of the screen until it learns how to successfully complete the level by jumping over holes and avoiding the bad guys. Eventually the model will learn that it can earn points by collecting coins, stomping on enemies and eating magic mushrooms thus increasing its rewards. After our simulations are complete we hope to have an algorithm that has learned the most efficient way to solve the problem it was trained to solve. 
+
+A reinforcement model usually contains the following components:
+
+- The input to the model will be an initial state that it will being with
+- The agent will then take this state and take an action of which many choices are possible
+- Training is done based the output (results) returned by the algorithm as a result of the actions it performed in the current state. If the result is desired it will receive a reward; otherwise, it will receive a punishment.
+- The algorithm will continue exploring its environment and taking different actions to produce outputs that will consistently produce a reward
+- After going through multiple simulations we choose the solution that provides the most desired results
+
+These type of algorithms are used to train models that can flawlessly complete video games, learn how to play chess or go or even teach a robot how to assemble a car on an assembly line. Another area where this type of algorithm may be applicable is for the automated and systematic trading of financial instruments. 
+
+
 # Artificial Neural Networks
 
 Artificial Neural Networks (ANN) are computing systems inspired by the human brain. The primary components of an ANN are neurons, connections, input layers, hidden layers and output layers. These are briefly explained below:

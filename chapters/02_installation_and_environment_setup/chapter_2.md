@@ -147,7 +147,7 @@ npm i
 npm start
 ```
 
-This will install all of the required dependencies required to run out application as well as start Webpack, compile our code through Babel and spin up a live hot-reloading development server that will run on localhost:3000 in our browsers. You’ll see the application running if you visit http://localhost:3000/ in your browser. **So we need a web server to run the app? It is not clear if TFJS is being run server side or client side.**
+This will install all of the required dependencies required to run out application as well as start Webpack, compile our code through Babel and spin up a live hot-reloading development server that will run on localhost:3000 in our browsers. You’ll see the application running if you visit http://localhost:3000/ in your browser. This server is provided for us for free via the `create-react-app` package and is run for us behind the scenes. The entire process involves `create-react-app` running Webpack, which will compile all of our ES6 and JSX and pipe it through a transpilation process that will allow our next generation JavaScript code to run in many different browsers. In order to view this transpiled JavaScript in the browser we have to actually server it up and `create-react-app` will create a Webpack development server that will serve our application and refresh it anytime we change our code. this is why we have to to have to navigate to `localhost` in our browsers.
 
 If you see the following screen the installation was successful and you're now ready to install and start using TensorFlow.js in the browser!
 

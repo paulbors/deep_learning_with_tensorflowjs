@@ -249,4 +249,4 @@ Underfitting occurs when a model does poorly performing inference on the data it
 
 In this chapter we were able to gain a very high-level overview of what deep learning is and how it fits into the grand scheme of the fields of Machine Learning and Artificial Intelligence. We took a dive into Artificial Neural Networks and their major components including the input, hidden and output layers. We then learned how ANNs are trained by minimizing a cost function. We learned the roles of activation functions and the process of backpropagation and gradient descent to minimize these costs. We also learned how the learning rate can impact our results. Last we identified the different types of Artificial Neural Networks.
 
-In the next chapter we will take everything that we learned in this chapter and will use TensforFlow.js to build our first Artificial Neural Network.
+In the next chapter we will take everything that we learned in this chapter and will use TensorFlow.js to build our first Artificial Neural Network.

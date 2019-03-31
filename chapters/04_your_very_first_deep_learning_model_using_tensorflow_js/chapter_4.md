@@ -13,14 +13,14 @@ To accomplish this we will cover the following topics:
 
 ## TensorFlow.js
 
-TensorFlow.js is an open-source library that allows users to create, train and run deep learning models directly in the browser using JavaScript as a language. This provides the ability to run machine learning models entirely on the client-side without having to make embedded in web applications that are served over the web without the user having to install any libraries or drivers for the software to work. Because Tensorflow.js runs in the browser it targets the user’s GPU via WebGL. This means that if WebGL is available TensforFlow.js will automatically detect the GPU and use it accelerate the performance of the model.
+TensorFlow.js is an open-source library that allows users to create, train and run deep learning models directly in the browser using JavaScript as a language. This provides the ability to run machine learning models entirely on the client-side without having to make embedded in web applications that are served over the web without the user having to install any libraries or drivers for the software to work. Because Tensorflow.js runs in the browser it targets the user’s GPU via WebGL. This means that if WebGL is available TensorFlow.js will automatically detect the GPU and use it accelerate the performance of the model.
 
 Other benefits of TensorFlow.js are listed below:
 
-- TensorFlow.js supports the use of pre-existing models - Existing models created using the TensorFlow Python or Keras libraries can be imported into the browser for consumption by TensforFlow.js.
+- TensorFlow.js supports the use of pre-existing models - Existing models created using the TensorFlow Python or Keras libraries can be imported into the browser for consumption by TensorFlow.js.
 - Models can be trained directly in the browser and exported for future use - This makes is simple to use models developed using the TensorFlow Python API on the client.
 - TensorFlow.js has an API that is similar to the Python API
-- The TensforFlow.js API has an API that is similar to the TensorFlow Python API, however, not all functionality of the TensorFlow Python API is supported by TF.js out of the box. However, this may change in the near future as the TensforFlow team is working to achieve API parity between the two libraries.
+- The TensorFlow.js API has an API that is similar to the TensorFlow Python API, however, not all functionality of the TensorFlow Python API is supported by TF.js out of the box. However, this may change in the near future as the TensorFlow team is working to achieve API parity between the two libraries.
 - The performance of TensorFlow.js is not that far off from the Python API for smaller models - As noted in a previous chapter, at the time of this writing, TensorFlow.js with WebGL is roughly 1.5 - 2x slower than TensorFlow Python with AVX. Google notes that they see small models actually train faster in the browser while larger models with lots of data can take up to 10-15x slower in the browser when compared to Python with AVX.
 - The TensorFlow.js Layers API is similar to the Keras Python library
 

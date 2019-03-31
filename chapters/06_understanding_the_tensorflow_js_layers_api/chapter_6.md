@@ -177,7 +177,7 @@ const model = tf.sequential();
 We then add our first layer, which will be a two-dimensional convolutional layer. Convolutions slide a special filter over an image to learn patterns about different parts of an image. For example, we may have one convolutional layer that has the sole job detecting eyes in an image. Figure 4.14 provides an example of how these filters work.
 
 **Figure 6.x**
-We will go deep into these structures in a later chapter, for now all we have to know is that TensforFlow.js makes it simple to add a two-dimensional convolutional layer by using the tf.layers.conv2d constructor.
+We will go deep into these structures in a later chapter, for now all we have to know is that TensorFlow.js makes it simple to add a two-dimensional convolutional layer by using the tf.layers.conv2d constructor.
 
 **Figure 6.x**
 

@@ -168,7 +168,7 @@ Under the install section you will see the command that we can use to install Te
 
 `npm i @tensorflow/tfjs`
 
-The command above uses the npm CLI with the flag “i”, which is short for install, to install the latest stable version of TensorFlow.js. The CLI will make a request to the npm registry and install the latest version, as described on the Tensforflow.js npm page, and install it locally on your computer in a folder called `node_modules`.
+The command above uses the npm CLI with the flag “i”, which is short for install, to install the latest stable version of TensorFlow.js. The CLI will make a request to the npm registry and install the latest version, as described on the TensorFlow.js npm page, and install it locally on your computer in a folder called `node_modules`.
 The node_modules folder is where npm installs all dependencies that you have installed via npm CLI npm i command. Any module saved to node_modules can be required in any JavaScript file via ES2016 imports, which are transpiled by Webpack in our development environment.
 
 To try out TensorFlow.js change the code found in tfjs/src/App.js (this file was created for us by create-react-app in the previous steps) by copying and pasting the following code into it. Don't worry too much about how the code works for now. We will explain this in much more detail in a later chapter. For now it is recommended to follow along with the comments that are present in Figure 2.4 below:

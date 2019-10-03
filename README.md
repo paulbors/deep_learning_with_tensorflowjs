@@ -1,4 +1,4 @@
-# TensorFlow.js By Example
+# TensorFlow.js Quickstart Guide
 
 > Train and deploy deep learning models in the browser using artificial neural networks and TensorFlow.js
 

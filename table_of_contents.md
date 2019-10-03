@@ -1,23 +1,33 @@
-# TensorFlow.js Quick Guide Table of Contents
+# Table of Contents
 
-## Acknowledgements
+- About the Author
 
-## Preface
+- Preface
 
-## Chapter 1: Introducing TensorFlow.js
+- About This Book
 
-## Chapter 2: Installation and Environment Setup
+- Acknowledgements
 
-## Chapter 3: An Introduction to Artificial Neural networks
+- Chapter 1: Introducing TensorFlow.js
 
-## Chapter 4: Your First Deep Learning Model Using TensorFlow.js
+- Chapter 2: Installation and Environment Setup
 
-## Chapter 5: Understanding the TensorFlow.js Core API
+- Chapter 3: An Introduction to Artificial Neural networks
 
-## Chapter 6: Understanding the TensorFlow.js Layers APIs
+- Chapter 4: The Machine Learning Process
 
-## Chapter 7: Importing and Running Existing Models in the Browser
+- Chapter 5: Your First Deep Learning Model Using TensorFlow.js
 
-## Chapter 8: Deploying Deep Learning Models to the Browser
+- Chapter 6: Understanding the TensorFlow.js Core API
 
-## Glossary
+- Chapter 7: Understanding the TensorFlow.js Layers API
+
+- Chapter 8: Importing and Running Existing Models in the Browser
+
+- Chapter 9: Deploying Deep Learning Models to the Browser
+
+- Chapter 10: Exploring TensorHub
+
+- Chapter 11: Where to Go From Here
+
+- Glossary

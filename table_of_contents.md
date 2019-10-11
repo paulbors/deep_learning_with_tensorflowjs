@@ -14,20 +14,16 @@
 
 - Chapter 3: An Introduction to Artificial Neural networks
 
-- Chapter 4: The Machine Learning Process
+- Chapter 4: Your First Deep Learning Model Using TensorFlow.js
 
-- Chapter 5: Your First Deep Learning Model Using TensorFlow.js
+- Chapter 5: Understanding the TensorFlow.js Core API
 
-- Chapter 6: Understanding the TensorFlow.js Core API
+- Chapter 6: Understanding the TensorFlow.js Layers API
 
-- Chapter 7: Understanding the TensorFlow.js Layers API
+- Chapter 7: Importing and Running Existing Models in the Browser
 
-- Chapter 8: Importing and Running Existing Models in the Browser
+- Chapter 8: Deploying Deep Learning Models to the Browser
 
-- Chapter 9: Deploying Deep Learning Models to the Browser
-
-- Chapter 10: Exploring TensorHub
-
-- Chapter 11: Where to Go From Here
+- Chapter 9: Where to Go From Here
 
 - Glossary

@@ -156,9 +156,6 @@ By examining the code above, it becomes clearer how the TFJS Layers API closely 
 
 TODO: IMPORT MODEL AND PERFORM INFERENCE
 
-```javascript
-```
-
 TODO: FINISH THIS!!!
 
 ### Importing a Python TensorFlow Model into TensorFlow.js

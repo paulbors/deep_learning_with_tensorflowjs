@@ -15,6 +15,37 @@ Originally, I was writing this book with a publisher; however, I decided to self
 I plan to spend a couple of hours a week completing these chapters so note that they are very rough and are in their beginning stages. However, you should feel free to read them and provide feedback as you see fit by opening an issue on GitHub. Contributions are also welcome. The contribution instructions appear in [CONTRIBUTING.md](./CONTRIBUTING.md). I plan to credit every contributor that contributes to the book.
 
 
+## Table of Contents
+
+- Acknowledgements
+
+- About This Book
+
+- About the Author
+
+- Chapter 1: Introducing TensorFlow.js
+
+- Chapter 2: Installation and Environment Setup
+
+- Chapter 3: Modern JavaScript and Node.js
+
+- Chapter 4: Artificial Neural Networks
+
+- Chapter 5: Your Very First Deep Learning Model
+
+- Chapter 6: Understanding the TensorFlow.js Core API
+
+- Chapter 7: Understanding the TensforFlow.js Layers API
+
+- Chapter 8: Importing and Running Existing Models in the Browser
+
+- Chapter 9: Deploying Deep Learning Models to the Browser
+
+- Chapter 10: Next Steps in Deep learning
+
+- Glossary
+
+
 ## Target audience
 
 This book is aimed at front-end and full stack software developers that are interested in learning how to use TensorFlow.js to embed machine learning and deep learning models in the browser. Little to no experience with Artificial Intelligence, Machine Learning or Deep Learning is required though some familiarity with JavaScript and web technologies is recommended.

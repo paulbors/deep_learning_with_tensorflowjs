@@ -1,0 +1,9 @@
+_book
+node_modules
+npm-debug.log
+.DS_Store
+*.md#*
+_book
+/book.pdf
+/book.epub
+yarn-error.log

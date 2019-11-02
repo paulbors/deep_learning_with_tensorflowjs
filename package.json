@@ -1,0 +1,34 @@
+{
+  "name": "deep-learning-with-tensorflowjs",
+  "version": "0.0.1",
+  "description": "Train and Deploy Artificial Neural Networks",
+  "scripts": {
+    "setup": "npx gitbook install",
+    "start": "npx gitbook serve",
+    "build": "npx gitbook build",
+    "generate-epub": "npx gitbook epub",
+    "generate-pdf": "npx gitbook pdf"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:jsogarro/tensorflowjs_quickstart_guide.git",
+  "author": "Jamal O'Garro <jamal.ogarro@gmail.com>",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": [
+    "gitbook",
+    "node",
+    "nodejs",
+    "tfjs",
+    "tensorflow",
+    "deep lerning",
+    "web development"
+  ],
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "6.6.0",
+    "gitbook-cli": "2.3.2",
+    "gitbook-plugin-include-codeblock": "3.2.2",
+    "husky": "3.0.9",
+    "jest": "24.9.0",
+    "prettier": "1.18.2"
+  }
+}

@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js: "stable"
+cache: yarn
+
+before_install:
+install:
+- yarn
+
+script:
+- yarn test
+- yarn setup
+- yarn build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: _book
+  on:
+    branch: master

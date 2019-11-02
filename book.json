@@ -1,0 +1,15 @@
+{
+  "gitbook": "3.2.2",
+  "root": ".",
+  "title": "Deep Learning with TensorFlow.js",
+  "cover": "images/cover.png",
+  "plugins" : [
+    "include-codeblock",
+    "ace"
+  ],
+  "pluginsConfig": {
+      "include-codeblock": {
+          "template": "ace"
+      }
+  }
+}

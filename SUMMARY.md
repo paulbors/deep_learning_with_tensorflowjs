@@ -13,5 +13,5 @@
 * [Chapter 7: Understanding the TensorFlow.js Layers API](chapters/06/chapter_6.md)
 * [Chapter 8: Importing and Running Existing Models in the Browser](chapters/07/chapter_7.md)
 * [Chapter 9: Deploying Deep Learning Models to the Browser](chapters/08/chapter_8.md)
-* [Chapter 7: Next Steps in Deep Learning](chapters/09/chapter_9.md)
+* [Chapter 10: Next Steps in Deep Learning](chapters/09/chapter_9.md)
 * [Glossary](chapters/10/glossary.md)

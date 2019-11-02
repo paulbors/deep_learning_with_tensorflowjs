@@ -2,7 +2,7 @@
 
 # Deep Learning with TensorFlow.js
 
-> Train and deploy deep learning models in the browser using artificial neural networks and TensorFlow.js
+> Train and deploy deep learning models in the browser using artificial neural networks, Node and TensorFlow.js
 
 Copyright, Jamal Sinclair O'Garro 2018 - 2020
 

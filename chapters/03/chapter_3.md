@@ -1,4 +1,4 @@
-# Introduction to Artificial Neural Networks
+# Chapter 3: Introduction to Artificial Neural Networks
 
 In the last chapter we setup our Node.js and TensorFlow.js development environment and ran a “hello world” of sorts. In this chapter we will delve deeper into machine learning theory in order to develop the intuition required to build deep learning models with TensorFlow.js.
 To accomplish this we will cover the following topics:

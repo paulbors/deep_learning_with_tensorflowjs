@@ -1,4 +1,4 @@
-# Chapter 7 - Importing and Running Existing Models in TensorFlow.js Applications
+# Chapter 7: Importing and Running Existing Models in TensorFlow.js Applications
 
 In the last chapters we took at the workings of the TensorFlow.js Core API and became familiar with how to build models from scratch using the Layers API. In this chapter we will learn how to work with existing models that were created outside of the TensorFlow.js environment. After completing this chapter you should learn the following:
 

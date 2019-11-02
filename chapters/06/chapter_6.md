@@ -1,4 +1,4 @@
-# Chapter 6 - Building Artificial Neural Networks with the TensorFlow.js Layers API
+# Chapter 6: Building Artificial Neural Networks with the TensorFlow.js Layers API
 
 In chapter four we built our very first Artificial Neural Network (ANN) using the TensorFlow.js layers API. In that chapter we skimmed over the API and focused on the process involved in creating a deep learning model as demonstration of the power that TensorFlow.js provides when it comes to building Artificial Neural Networks. In this chapter we will take a deeper dive into this API to learn how it is structured as well as what methods and data structures it provides to allow us to create deep learning models that can be run in the browser. By the end of this chapter we will have accomplished:
 

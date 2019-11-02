@@ -1,4 +1,4 @@
-# Chapter 5 - Understanding the TensorFlow.js Core API
+# Chapter 5: Understanding the TensorFlow.js Core API
 
 In the last chapter we build our very first Artificial Neural Network (ANN) using the TensorFlow.js layers API. In this chapter we will take a dive into the TensorFlow.js Core API, which the Layers API that we received a brief introduction to is build on top of. Our aim is to explore this low-level API to learn how it is structured as well as what methods and data structures it provides to allow us to create deep learning models that can be run in the browser. By the end of this chapter we should:
 

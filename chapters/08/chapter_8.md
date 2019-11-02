@@ -1,4 +1,4 @@
-# Chapter 8 - Deploying Deep Learning Models to the Browser
+# Chapter 8: Deploying Deep Learning Models to the Browser
 
 In this chapter we will take the housing price prediction model that we imported at the end of the last chapter and will refactor it and embed it into an application to to make it ready for deployment to the web. We will make use of the TensorFlow.js sessions and will be using the `tidy` method to clean up our environment after our models have been run. This will help prevent memory leaks and ensure that variables created by our model runs are cleaned up appropriately. We will build a web server that will serve our application and models and will build a simple user interface that will allow users to interact with our model. So without further ado let's begin building our simple capstone project for this quick start guide.
 

@@ -1,4 +1,4 @@
-# Chapter 9 -  Next Steps in Deep Learning
+# Chapter 9:  Next Steps in Deep Learning
 
 This chapter concludes our book. The aim of this book was to get you up to speed with TensorFlow.js and introduce you to enough machine learning and deep learning to get you productive as quickly as possible. This book was also designed to be used a quick reference that can be picked up to familiarize yourself on the topics covered. If you need to review the core API, then you may refer to that chapter, to review the Layers API refer to that chapter, to get an overview of deep learning in general you may reread that chapter and so on.
 

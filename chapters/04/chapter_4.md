@@ -1,4 +1,4 @@
-# Chapter 4 - Your First Artificial Neural Network
+# Chapter 4: Your First Artificial Neural Network
 
 In the previous chapter we learned about the theory that drives artificial neural networks. In this chapter we will build an artificial neural from scratch using TensorFlow.js. It will act as a simple tutorial that will demonstrate how TensorFlow.js can be used to create an artificial neural network that recognizes handwritten digits.
 

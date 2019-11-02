@@ -1,3 +1,3 @@
-# Chapter TBD: Modern JavaScript and Node.js
+# Chapter 3: Modern JavaScript and Node.js
 
 TBD

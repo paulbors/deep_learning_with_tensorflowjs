@@ -4,6 +4,7 @@
 * [Acknowledgements](chapters/00_0/acknowledgements.md)
 * [About This Book](chapters/00_1/preface.md)
 * [About the Author](chapters/00_2/about_the_author.md)
+* [License](LICENSE.md)
 * [Chapter 1: Introducing TensorFlow.js](chapters/01/chapter_1.md)
 * [Chapter 2: Installation and Environment Setup](chapters/02/chapter_2.md)
 * [Chapter 3: Modern JavaScript and Node.js](chapters/11/chapter_11.md)

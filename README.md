@@ -1,10 +1,10 @@
+![](./images/cover.png)
+
 # Deep Learning with TensorFlow.js
 
 > Train and deploy deep learning models in the browser using artificial neural networks and TensorFlow.js
 
 Copyright, Jamal Sinclair O'Garro 2018 - 2020
-
-![](./images/cover.png)
 
 ## Important Note About the Status of this Book
 

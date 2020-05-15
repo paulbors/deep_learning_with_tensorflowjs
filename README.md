@@ -1,6 +1,6 @@
 ![](./images/cover.png)
 
-# Deep Learning with TensorFlow.js
+# Deep Learning with TensorFlow.js (v0.0.1)
 
 > Train and deploy deep learning models in the browser using artificial neural networks, Node and TensorFlow.js
 
@@ -8,12 +8,11 @@ Copyright, Jamal Sinclair O'Garro 2018 - 2020
 
 ## Important Note About the Status of this Book
 
-This book is currently a work in progress. I am writing it in the open to allow others to review and comment as I work to complete it. I am a big believer in open source software so I think it makes sense for more books on software development, computer science, artificial intelligence and machine learning to be written in an open source manner. 
+This book is currently a work in progress. I am writing it in the open to allow others to review and comment as I work to complete it. I am a big believer in open source software so I think it makes sense for more books on software development, computer science, artificial intelligence and machine learning to be written in an open source manner.
 
-Originally, I was writing this book with a publisher; however, I decided to self-publish it since I was simultaneously writing another book with a different publisher and did not have the time to complete both manuscripts within the time constraints I was given. I think this is a good thing because both publishers had very aggressive deadlines (both gave me less than six months to complete both books) but this was a lesson for me to learn as a first-time author. Now that I can publish this book on my own terms and on my own timeline I can take the time to present the material in way that I think would benefit readers the most.
+Originally, I was writing this book with a publisher; however, I decided to self-publish it since I was simultaneously writing another book with a different publisher and did not have the time to complete both manuscripts and manage an increased workload caused by the COVID-19 global pandemic. Now that I can publish this book on my own terms and on my own timeline I can take the time to present the material in way that I think would benefit readers the most.
 
 I plan to spend a couple of hours a week completing these chapters so note that they are very rough and are in their beginning stages. However, you should feel free to read them and provide feedback as you see fit by opening an issue on GitHub. Contributions are also welcome. The contribution instructions appear in [CONTRIBUTING.md](./CONTRIBUTING.md). I plan to credit every contributor that contributes to the book.
-
 
 ## Table of Contents
 
@@ -45,11 +44,9 @@ I plan to spend a couple of hours a week completing these chapters so note that 
 
 - Glossary
 
-
 ## Target audience
 
 This book is aimed at front-end and full stack software developers that are interested in learning how to use TensorFlow.js to embed machine learning and deep learning models in the browser. Little to no experience with Artificial Intelligence, Machine Learning or Deep Learning is required though some familiarity with JavaScript and web technologies is recommended.
-
 
 ## Long Description
 
@@ -61,16 +58,13 @@ To properly process the massive amounts of data that are currently being collect
 
 In this book we will learn the basics of artificial neural networks and deep learning. Specifically we will learn how to develop and deploy deep learning models in the browser leveraging the power of artificial neural networks. In particular, we will use Google’s popular open source high performance numerical computation library, TensorFlow.js, to add the power of machine learning algorithms to our front-end applications.
 
-
 ## What You Will Learn
 
 In this book readers will learn the fundamental building blocks of deep learning and how to use TensorFlow.js to construct artificial neural networks to create machine learning and deep learning models. Your journey will begin by learning about the history of TensorFlow.js as well as the basics of deep learning and artificial neural networks. We will then explore the TensorFlow.js Core and Layers APIs and learn how they can be used to develop artificial neural networks and deep learning models. You will then learn how to perform inference and retrain existing models in browser after receiving additional data from the end user. Last we’ll learn how to deploy the front-end of an application containing embedded TensorFlow models to the Internet and how to optimize it for production use. We will implement several fundamental deep learning models as we learn each of these topics.
 
-
 ## Approach
 
 In this book we will learn just enough TensorFlow.js to build and deploy deep learning models to the web. Each chapter will focus on a section of the TensorFlow.js API after completing a short primer on artificial intelligence and deep learning. Readers will learn how to use both the Core and Layers APIs to develop deep learning models. The chapters are presented in a tutorial style where each chapter builds off of what was learned in the previous chapter. This book has been organized in such a way that each chapter can also serve as a quick reference for a particular topic.
-
 
 ## Author Bio
 
